@@ -1,0 +1,43 @@
+body {
+    color: white;
+    margin: 0;
+}
+
+.header {
+    background-color: red;
+    text-align: center;
+}
+
+.title {
+    font-size: 85px;
+    margin: 0;
+}
+
+.navigation {
+    background-color: orange;
+    padding: 20px;
+}
+
+.link {
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+  }
+
+  .main {
+    background: green;
+    padding: 20px;
+  }
+
+  .article {
+    background: rgb(214, 214, 235);
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    background: palevioletred;
+    font-size: 85px;
+    text-align: center;
+  }
