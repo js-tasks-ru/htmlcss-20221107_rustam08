@@ -1,5 +1,7 @@
-.accordion {}
 
+/* Стилизация аккордеона */
+
+.accordion {}
 
 .accordion__item {
     border: 1px solid #ACB5BD;
@@ -42,5 +44,5 @@
 
     font-size: 16px;
     line-height: 24px;
-    color: #495057;
+    color: #495057;gi
 }
