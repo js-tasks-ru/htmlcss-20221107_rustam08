@@ -9,18 +9,20 @@
     line-height: 19px;
     font-weight: 500;
     cursor: pointer;
-    width: 182px;
+    /*width: 182px;*/
+    transition: opacity 200ms ease-in-out, backround 200ms ease-in-out;
 }
 
 .button:disabled {
     opacity: 0.5;
     cursor: default;
+    pointer-events: none
 }
 
 .button_primary {
     background: #4263EB;
     color: #ffffff;
-    transition: opacity 200ms ease-in-out, backround 200ms ease-in-out;
+    
 
 }
 
@@ -31,12 +33,12 @@
 .button_primary:hover:disabled {
     background: #4263EB;
     color: #ffffff;
+    pointer-events: none;
 }
 
 .button_secondary {
     background: #7048E8;
     color: #ffffff;
-    transition: opacity 200ms ease-in-out, backround 200ms ease-in-out;
 }
 
 .button_secondary:hover {
@@ -52,7 +54,6 @@
     background: white;
     color: #495057;
     border: 1px solid #ACB5BD;
-    transition: opacity 200ms ease-in-out, backround 200ms ease-in-out;
 }
 
 .button_alternate:hover:disabled {
