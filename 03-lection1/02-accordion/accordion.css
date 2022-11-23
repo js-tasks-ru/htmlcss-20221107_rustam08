@@ -1,14 +1,17 @@
 
 /* Стилизация аккордеона */
 
-.accordion {}
+.accordion {
+   
+}
+
 
 .accordion__item {
     border: 1px solid #ACB5BD;
     box-sizing: border-box;
     border-radius: 8px;
-
     margin-bottom: 8px;
+    width: 579px;
 }
 
 .accordion__item:last-child {
@@ -25,6 +28,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #212429;
+    
 }
 
 .accordion__item[open] .accordion__summary {
@@ -33,8 +37,8 @@
 
 .accordion__summary::-webkit-details-marker {
     display: none;
+    
 }
-
 .accordion__content {
     padding: 0 32px 32px;
 }
