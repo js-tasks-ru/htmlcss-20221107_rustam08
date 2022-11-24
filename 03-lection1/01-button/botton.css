@@ -1,3 +1,5 @@
+@import '../../assets/css/main.css';
+
 .button {
     border: none;
     outline: none;
@@ -20,7 +22,7 @@
 }
 
 .button_primary {
-    background: #4263EB;
+    background: var(--primary);
     color: #ffffff;
     
 
@@ -31,13 +33,13 @@
 }
 
 .button_primary:hover:disabled {
-    background: #4263EB;
+    background: var(--primary);
     color: #ffffff;
     pointer-events: none;
 }
 
 .button_secondary {
-    background: #7048E8;
+    background: var(--secondary);
     color: #ffffff;
 }
 
@@ -46,18 +48,18 @@
 }
 
 .button_secondary:hover:disabled {
-    background: #7048E8;
+    background: var(--secondary);
     color: #ffffff;
 }
 
 .button_alternate {
-    background: white;
+    background: var(--white);
     color: #495057;
     border: 1px solid #ACB5BD;
 }
 
 .button_alternate:hover:disabled {
-    background: white;
+    background: var(--white);
     color: #495057;
    
 }
