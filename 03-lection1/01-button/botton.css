@@ -1,5 +1,3 @@
-@import '../../assets/css/main.css';
-
 .button {
     border: none;
     outline: none;
@@ -23,7 +21,7 @@
 
 .button_primary {
     background: var(--primary);
-    color: #ffffff;
+    color: var(--white);
     
 
 }
@@ -34,13 +32,13 @@
 
 .button_primary:hover:disabled {
     background: var(--primary);
-    color: #ffffff;
+    color: var(--white);
     pointer-events: none;
 }
 
 .button_secondary {
     background: var(--secondary);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .button_secondary:hover {
@@ -49,7 +47,7 @@
 
 .button_secondary:hover:disabled {
     background: var(--secondary);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .button_alternate {
@@ -65,7 +63,7 @@
 }
 
 .button_alternate:hover {
-    background: white;
+    background: var(--white);
     border: 1px solid #212429;
     border: none;
     
